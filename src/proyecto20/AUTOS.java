@@ -2,7 +2,7 @@
 package proyecto20;
 
 public class AUTOS {
-   private String numeroChasis;
+   private int numeroChasis;
    private String marca;
    private String estilo;
    private String modelo;
@@ -10,7 +10,7 @@ public class AUTOS {
    private double precio;
 
     public AUTOS() {
-        this.numeroChasis = "";
+        this.numeroChasis = 0;
         this.marca = "";
         this.estilo = "";
         this.modelo = "";
@@ -19,11 +19,11 @@ public class AUTOS {
        
     }
 
-    public String getNumeroChasis() {
+    public int getNumeroChasis() {
         return numeroChasis;
     }
 
-    public void setNumeroChasis(String numeroChasis) {
+    public void setNumeroChasis(int numeroChasis) {
         this.numeroChasis = numeroChasis;
     }
 

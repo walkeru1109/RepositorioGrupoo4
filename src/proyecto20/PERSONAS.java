@@ -4,23 +4,23 @@ package proyecto20;
 
 
 public class PERSONAS {
-  private String numeroId;
+  private int numeroId;
   private String nombre;
   private int numeroTel;
   private String correo;
 
     public PERSONAS() {
-        this.numeroId = "";
+        this.numeroId = 0;
         this.nombre = "";
         this.numeroTel = 0;
         this.correo = "";
     }
 
-    public String getNumeroId() {
+    public int getNumeroId() {
         return numeroId;
     }
 
-    public void setNumeroId(String numeroId) {
+    public void setNumeroId(int numeroId) {
         this.numeroId = numeroId;
     }
 
